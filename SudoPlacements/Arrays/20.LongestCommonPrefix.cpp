@@ -35,8 +35,6 @@ int main() {
             cin >> temp;
             out = lcp(out, temp);
             
-            if (out == "")
-                break;
         }
         
         if (out == "")
